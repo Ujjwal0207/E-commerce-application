@@ -1,0 +1,14 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "E commerce Backend Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ujjwal Goyal",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^23.11.0"
+  }
+}
