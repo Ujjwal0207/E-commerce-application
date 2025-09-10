@@ -1,6 +1,6 @@
 #  GST-Free E-commerce Backend
 
-A Node.js and Express-based backend for an e-commerce platform designed for small vendors and individuals who do not have a GST number. This project supports product listings, authentication, cart and order handling, and allows vendors without GST registration to participate in online selling.
+A Node.js and Express-based backend for an e-commerce platform designed for small vendors and individuals who do not have a GST number. This project supports product listings, authentication, cart and order handling, payments, and allows vendors without GST registration to participate in online selling.
 
 ##  GitHub Repository
 
@@ -11,6 +11,7 @@ A Node.js and Express-based backend for an e-commerce platform designed for smal
 ##  Features
 
 -  GST-free seller support
+- Payment processing integration  
 -  Product CRUD operations
 -  Role-based access for customers and vendors
 -  JWT-based secure authentication
@@ -23,6 +24,7 @@ A Node.js and Express-based backend for an e-commerce platform designed for smal
 ##  Tech Stack
 
 - **Backend:** Node.js, Express.js
+- **Payments:** Python
 - **Database:** MongoDB, Mongoose
 - **Authentication:** JSON Web Tokens (JWT)
 - **Tools:** Postman, dotenv
@@ -80,4 +82,5 @@ Here are some of the key API routes you can test using Postman:
 Pull requests and suggestions are welcome! If you find any bugs or want to improve functionality, feel free to open an issue or submit a PR.
 
 ## Acknowledgments
-Built to empower individuals and micro-vendors to engage in e-commerce without the barrier of GST registration.
+Built to empower individuals and micro-vendors to engage in e-commerce without the barrier of GST registration, now with integrated payment support.
+
